@@ -1,0 +1,21 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeded with the following output:
+Change Dir: /home/mpas/Desktop/Source/MPAS/src/paraview_catalyst/Adaptor-build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec360995140/fast"
+make[5]: Entering directory `/home/mpas/Desktop/Source/MPAS/src/paraview_catalyst/Adaptor-build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec360995140.dir/build.make CMakeFiles/cmTryCompileExec360995140.dir/build
+make[6]: Entering directory `/home/mpas/Desktop/Source/MPAS/src/paraview_catalyst/Adaptor-build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/MPAS/src/paraview_catalyst/Adaptor-build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec360995140.dir/src.c.o
+/usr/bin/mpicc   -O3 -m64 -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTryCompileExec360995140.dir/src.c.o   -c /home/mpas/Desktop/Source/MPAS/src/paraview_catalyst/Adaptor-build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec360995140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec360995140.dir/link.txt --verbose=1
+/usr/bin/mpicc  -O3 -m64 -DC_SUPPORTS_DOLLAR   -O3 -m64 CMakeFiles/cmTryCompileExec360995140.dir/src.c.o  -o cmTryCompileExec360995140 -rdynamic 
+make[6]: Leaving directory `/home/mpas/Desktop/Source/MPAS/src/paraview_catalyst/Adaptor-build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory `/home/mpas/Desktop/Source/MPAS/src/paraview_catalyst/Adaptor-build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+

@@ -1,0 +1,129 @@
+GFORTRAN module version '10' created from ESMF_Stubs.f
+MD5:ba940ba145bc29b75cc7b46ce9aebb08 -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () ()
+() () () ())
+
+()
+
+(('esmf_grid' 'esmf_stubs' 2) ('esmf_gridcomp' 'esmf_stubs' 3) (
+'esmf_log' 'esmf_stubs' 4) ('esmf_msgtype' 'esmf_stubs' 5) ('esmf_state'
+'esmf_stubs' 6) ('esmf_vm' 'esmf_stubs' 7))
+
+()
+
+()
+
+()
+
+(2 'Esmf_grid' 'esmf_stubs' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 ((8 'dummy'
+(INTEGER 4 0 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0
+63633612)
+3 'Esmf_gridcomp' 'esmf_stubs' '' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 ((9 'dummy' (INTEGER 4 0 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ())) PUBLIC (() () () ())
+() 0 0 79027675)
+4 'Esmf_log' 'esmf_stubs' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 ((10 'dummy'
+(INTEGER 4 0 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0
+68856670)
+5 'Esmf_msgtype' 'esmf_stubs' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 ((11 'mtype'
+(INTEGER 4 0 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0
+60102485)
+6 'Esmf_state' 'esmf_stubs' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 ((12 'dummy'
+(INTEGER 4 0 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0
+28173579)
+7 'Esmf_vm' 'esmf_stubs' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 ((13 'dummy'
+(INTEGER 4 0 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0
+45108925)
+14 'esmf_finalize' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+0 UNKNOWN ()) 15 0 (16) () 0 () () () 0 0)
+17 'esmf_grid' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC
+DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 () () () 0 0)
+18 'esmf_gridcomp' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN 0 0 0 0 UNKNOWN
+()) 0 0 () () 0 () () () 0 0)
+19 'esmf_initialize' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+0 UNKNOWN ()) 20 0 (21 22 23) () 0 () () () 0 0)
+24 'esmf_isinitialized' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION IMPLICIT_PURE) (LOGICAL 4 0 0 0
+LOGICAL ()) 0 0 () () 24 () () () 0 0)
+25 'esmf_log' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC
+DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 () () () 0 0)
+26 'esmf_log_error' 'esmf_stubs' '' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (DERIVED 5 0 0 0 DERIVED ()) 0 0
+() (STRUCTURE (DERIVED 5 0 0 0 DERIVED ()) 0 (((CONSTANT (INTEGER 4 0 0
+0 INTEGER ()) 0 '3') ())) ()) () 0 () () () 0 0)
+27 'esmf_log_info' 'esmf_stubs' '' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (DERIVED 5 0 0 0 DERIVED ()) 0 0
+() (STRUCTURE (DERIVED 5 0 0 0 DERIVED ()) 0 (((CONSTANT (INTEGER 4 0 0
+0 INTEGER ()) 0 '1') ())) ()) () 0 () () () 0 0)
+28 'esmf_log_warning' 'esmf_stubs' '' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (DERIVED 5 0 0 0 DERIVED ()) 0 0
+() (STRUCTURE (DERIVED 5 0 0 0 DERIVED ()) 0 (((CONSTANT (INTEGER 4 0 0
+0 INTEGER ()) 0 '2') ())) ()) () 0 () () () 0 0)
+29 'esmf_logwrite' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+0 UNKNOWN ()) 30 0 (31 32 33 34 35 36 37) () 0 () () () 0 0)
+38 'esmf_msgtype' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN 0 0 0 0 UNKNOWN
+()) 0 0 () () 38 () () () 0 0)
+39 'esmf_state' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN 0 0 0 0 UNKNOWN
+()) 0 0 () () 0 () () () 0 0)
+40 'esmf_vm' 'esmf_stubs' '' 1 ((PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC
+DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 () () () 0 0)
+16 'rc' '' '' 15 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+21 'vm' '' '' 20 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 OPTIONAL
+DUMMY) (DERIVED 7 0 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+22 'defaultcalendar' '' '' 20 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (DERIVED 41 0 0 0 DERIVED ()) 0 0 () () 0 () () () 0
+0)
+23 'rc' '' '' 20 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+31 'msg' '' '' 30 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(CHARACTER 1 0 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+32 'msgtype' '' '' 30 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 5 0 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+33 'line' '' '' 30 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+34 'file' '' '' 30 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (CHARACTER 1 0 0 0 CHARACTER (())) 0 0 () () 0 () () ()
+0 0)
+35 'method' '' '' 30 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (CHARACTER 1 0 0 0 CHARACTER (())) 0 0 () () 0 () () ()
+0 0)
+36 'log' '' '' 30 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL TARGET DUMMY) (DERIVED 4 0 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+37 'rc' '' '' 30 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+41 'Esmf_calendartype' 'esmf_calendarmod' '' 20 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 ((42 'caltype' (INTEGER 4 0 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()))
+PUBLIC (() () () ()) () 0 0 7876317)
+)
+
+('Esmf_grid' 0 2 'Esmf_gridcomp' 0 3 'Esmf_log' 0 4 'Esmf_msgtype' 0 5
+'Esmf_state' 0 6 'Esmf_vm' 0 7 'esmf_finalize' 0 14 'esmf_grid' 0 17
+'esmf_gridcomp' 0 18 'esmf_initialize' 0 19 'esmf_isinitialized' 0 24
+'esmf_log' 0 25 'esmf_log_error' 0 26 'esmf_log_info' 0 27
+'esmf_log_warning' 0 28 'esmf_logwrite' 0 29 'esmf_msgtype' 0 38
+'esmf_state' 0 39 'esmf_vm' 0 40)
